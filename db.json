@@ -1,0 +1,76 @@
+{
+  "bg": [
+    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
+    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
+    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
+    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
+    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
+    "https://preview.redd.it/f7v100kn8ip51.png?width=1920&format=png&auto=webp&s=bfe44238a56869c80f56a995bf3b3b40c8d660a1",
+    "https://preview.redd.it/f7v100kn8ip51.png?width=1920&format=png&auto=webp&s=bfe44238a56869c80f56a995bf3b3b40c8d660a1",
+    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
+    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
+    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
+    "https://i.redd.it/ajpk3m2r0f551.png",
+    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef740c5a-5c00-4333-8b9b-e16b92b97864/ddyuhsw-52415c51-3c98-4779-8426-9e2684fc4790.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWY3NDBjNWEtNWMwMC00MzMzLThiOWItZTE2YjkyYjk3ODY0XC9kZHl1aHN3LTUyNDE1YzUxLTNjOTgtNDc3OS04NDI2LTllMjY4NGZjNDc5MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Hy8kqMDrh7l9FmMxPnUwPirl0tzxx_p9565B6_8eOZM",
+    "https://i.pinimg.com/originals/07/d1/b5/07d1b5bd23bd5a2d84cb3666a69a8369.png"
+  ],
+  "title": "Quiz Valorant #AluraQuiz",
+  "description": "Um quiz rápido sobre o universo do jogo online de FPS da Riot Games: VALORANT",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
+      "title": "Qual a diferença entre = , == e === ?",
+      "description": "Pergunta fácil em!",
+      "answer": 1,
+      "alternatives": [
+        "São a mesma coisa",
+        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
+      "title": "Que tipos de dados são suportados em JavaScript?",
+      "description": "E agora? Você sabe?",
+      "answer": 0,
+      "alternatives": [
+        "Number, String, Undefined, Null e Bool.",
+        "Int, String, Undefined, Null e Bool."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual a diferença de window e global?",
+      "answer": 1,
+      "alternatives": [
+        "São a mesma coisa",
+        "window é o escopo global no browser, e global no node"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
+      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "answer": 1,
+      "alternatives": [
+        "JSONHttpRequest",
+        "XMLHttpRequest",
+        "fetch"
+      ]
+    }
+  ],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#004d40",
+      "secondary": "#004d40",
+      "mainBg": "#424242",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50",
+      "githubCorner": "#555"
+    },
+    "borderRadius": "4px"
+  }
+}
