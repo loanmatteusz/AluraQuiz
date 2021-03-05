@@ -1,19 +1,5 @@
 {
-  "bg": [
-    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-    "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-    "https://preview.redd.it/f7v100kn8ip51.png?width=1920&format=png&auto=webp&s=bfe44238a56869c80f56a995bf3b3b40c8d660a1",
-    "https://preview.redd.it/f7v100kn8ip51.png?width=1920&format=png&auto=webp&s=bfe44238a56869c80f56a995bf3b3b40c8d660a1",
-    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
-    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
-    "https://i.pinimg.com/originals/de/78/95/de7895f878305fa16006a1a56e737398.png",
-    "https://i.redd.it/ajpk3m2r0f551.png",
-    "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef740c5a-5c00-4333-8b9b-e16b92b97864/ddyuhsw-52415c51-3c98-4779-8426-9e2684fc4790.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZWY3NDBjNWEtNWMwMC00MzMzLThiOWItZTE2YjkyYjk3ODY0XC9kZHl1aHN3LTUyNDE1YzUxLTNjOTgtNDc3OS04NDI2LTllMjY4NGZjNDc5MC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Hy8kqMDrh7l9FmMxPnUwPirl0tzxx_p9565B6_8eOZM",
-    "https://i.pinimg.com/originals/07/d1/b5/07d1b5bd23bd5a2d84cb3666a69a8369.png"
-  ],
+  "bg": "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
   "title": "Quiz Valorant #AluraQuiz",
   "description": "Um quiz rápido sobre o universo do jogo online de FPS da Riot Games: VALORANT",
   "questions": [
@@ -63,7 +49,7 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#004d40",
+      "primary": "#01579b",
       "secondary": "#004d40",
       "mainBg": "#424242",
       "contrastText": "#FFFFFF",

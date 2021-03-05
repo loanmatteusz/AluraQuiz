@@ -21,7 +21,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <>
-      <QuizBackground backgroundImage={ db.bg[Math.floor(Math.random() * db.bg.length)] }>
+      <QuizBackground backgroundImage={ db.bg }>
         <QuizContainer>
 
           <Widget>
