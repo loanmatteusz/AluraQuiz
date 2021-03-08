@@ -38,10 +38,18 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Valorant Quiz</title>
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap"
           rel="stylesheet"
+        />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="https://media.istockphoto.com/vectors/valorant-game-logo-symbol-isolated-on-white-background-vector-eps-10-vector-id1257091313?k=6&m=1257091313&s=170667a&w=0&h=ufVRrikV_kRDyOn5WCEXzzhYM-G5BycCvRuMRFtQFNs="
         />
       </Head>
       <ThemeProvider theme={theme}>
