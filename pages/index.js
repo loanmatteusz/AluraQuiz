@@ -1,10 +1,11 @@
-import styled from 'styled-components'
-import db from '../db.json'
+import styled from 'styled-components';
 
-import QuizBackground from '../src/components/QuizBackground'
-import Widget from '../src/components/Widget'
-import GitHubCorner from '../src/components/GitHubCorner'
-import Footer from '../src/components/Footer'
+import db from '../db.json';
+
+import QuizBackground from '../src/components/QuizBackground';
+import Widget from '../src/components/Widget';
+import GitHubCorner from '../src/components/GitHubCorner';
+import Footer from '../src/components/Footer';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -21,7 +22,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <>
-      <QuizBackground backgroundImage={ db.bg }>
+      <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
 
           <Widget>
@@ -35,7 +36,7 @@ export default function Home() {
               </p>
             </Widget.Content>
           </Widget>
-          
+
           <Widget>
             <Widget.Content>
               <h1>Quizes da Galera</h1>
@@ -48,8 +49,8 @@ export default function Home() {
           <Footer />
         </QuizContainer>
 
-        <GitHubCorner projectUrl="https://github.com/loanmatteusz/AluraQuiz"/>
+        <GitHubCorner projectUrl="https://github.com/loanmatteusz/AluraQuiz" />
       </QuizBackground>
     </>
-  )
+  );
 }
