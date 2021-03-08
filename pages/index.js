@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { useRouter } from 'next/router';
 
 import db from '../db.json';
 
@@ -6,6 +7,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import Widget from '../src/components/Widget';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
+import { useState } from 'react';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -20,6 +22,10 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+
+  const router = useRouter();
+  const [name, setName] = useState('');
+
   return (
     <>
       <QuizBackground backgroundImage={db.bg}>
@@ -31,9 +37,20 @@ export default function Home() {
             </Widget.Header>
 
             <Widget.Content>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </p>
+              <form onSubmit={function (eventInfo) {
+                eventInfo.preventDefault();
+                router.push(`/quiz?name=${name}`);
+              }}>
+                <input
+                  onChange={function(eventInfo) {
+                    setName(eventInfo.target.value);
+                  }}
+                  placeholder="Digite seu nome"
+                />
+                <button type="submit" disabled={ name.length === 0 } >
+                  Jogar {name}
+                </button>
+              </form>
             </Widget.Content>
           </Widget>
 
