@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 import db from '../db.json';
 
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
-import { useState } from 'react';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -30,6 +31,8 @@ export default function Home() {
     <>
       <QuizBackground backgroundImage={db.bg}>
         <QuizContainer>
+
+          <QuizLogo />
 
           <Widget>
             <Widget.Header>
