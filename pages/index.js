@@ -7,6 +7,7 @@ import db from '../db.json';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
+import Input from '../src/components/Input';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
 
@@ -44,11 +45,11 @@ export default function Home() {
                 eventInfo.preventDefault();
                 router.push(`/quiz?name=${name}`);
               }}>
-                <input
-                  onChange={function(eventInfo) {
-                    setName(eventInfo.target.value);
-                  }}
+                <Input
+                  name="userName"
+                  onChange={ (eventInfo) => setName(eventInfo.target.value) }
                   placeholder="Digite seu nome"
+                  value={name}
                 />
                 <button type="submit" disabled={ name.length === 0 } >
                   Jogar {name}
