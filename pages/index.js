@@ -8,6 +8,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
 import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
 
@@ -51,9 +52,9 @@ export default function Home() {
                   placeholder="Digite seu nome"
                   value={name}
                 />
-                <button type="submit" disabled={ name.length === 0 } >
+                <Button type="submit" disabled={ name.length === 0 } >
                   Jogar {name}
-                </button>
+                </Button>
               </form>
             </Widget.Content>
           </Widget>
