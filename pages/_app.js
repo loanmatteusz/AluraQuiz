@@ -49,7 +49,7 @@ export default function App({ Component, pageProps }) {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="https://media.istockphoto.com/vectors/valorant-game-logo-symbol-isolated-on-white-background-vector-eps-10-vector-id1257091313?k=6&m=1257091313&s=170667a&w=0&h=ufVRrikV_kRDyOn5WCEXzzhYM-G5BycCvRuMRFtQFNs="
+          href="https://preview.redd.it/shpmpl91zk761.png?width=1000&format=png&auto=webp&s=9cfd77d2b414ae91725379294b7ab6370238e409"
         />
       </Head>
       <ThemeProvider theme={theme}>
