@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Valorant Quiz</title>
+        <title>Supernatural Quiz</title>
 
         <link
           rel="preconnect"
@@ -49,7 +49,7 @@ export default function App({ Component, pageProps }) {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="https://preview.redd.it/shpmpl91zk761.png?width=1000&format=png&auto=webp&s=9cfd77d2b414ae91725379294b7ab6370238e409"
+          href="https://w7.pngwing.com/pngs/548/562/png-transparent-sun-with-star-inside-icon-dean-winchester-symbol-demonic-possession-supernatural-devil-s-trap-s-of-demonic-symbols-leaf-logo-tattoo.png"
         />
       </Head>
       <ThemeProvider theme={theme}>

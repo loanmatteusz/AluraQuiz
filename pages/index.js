@@ -38,7 +38,7 @@ export default function Home() {
 
           <Widget>
             <Widget.Header>
-              <h1>Valorant</h1>
+              <h1>Supernatural</h1>
             </Widget.Header>
 
             <Widget.Content>

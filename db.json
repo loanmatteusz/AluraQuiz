@@ -1,7 +1,7 @@
 {
-  "bg": "https://i.pinimg.com/originals/37/38/06/37380685019b50074cace31eb164eb0c.png",
-  "title": "Quiz Valorant #AluraQuiz",
-  "description": "Um quiz rápido sobre o universo do jogo online de FPS da Riot Games: VALORANT",
+  "bg": "https://www.teahub.io/photos/full/318-3182575_free-supernatural-high-quality-wallpaper-id-supernatural-hd.jpg",
+  "title": "Quiz Supernatural #AluraQuiz",
+  "description": "Um quiz rápido sobre o universo da série de televisão Supernatural",
   "questions": [
     {
       "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
@@ -49,7 +49,7 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#01579b",
+      "primary": "#5e2129",
       "secondary": "#004d40",
       "mainBg": "#424242",
       "contrastText": "#FFFFFF",
