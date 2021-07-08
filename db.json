@@ -4,13 +4,15 @@
   "description": "Um quiz rápido sobre o universo da série de televisão Supernatural",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
+      "image": "https://pa1.narvii.com/5795/f5cd9fc90bb1a7fa7310f8908eb116729a2e64b8_hq.gif",
+      "title": "Em um dos episódios da série, Maggie beija Castial antes da batalha, logo em seguida ele a beija e então ela pergunta o que tinha sido aquilo e Castiel respondeu que aprendeu com alguém. Com quem Castiel aprendeu?",
       "description": "Pergunta fácil em!",
       "answer": 1,
       "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "Com o Dean.",
+        "Com Bob",
+        "Aprendeu com Sam",
+        "O cara da Pizza"
       ]
     },
     {
