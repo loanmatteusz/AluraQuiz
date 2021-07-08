@@ -66,6 +66,7 @@ function QuestionWidget({ question, questionIndex, totalQuestions, onSubmit }) {
                   id={alternativeId}
                   name={questionId}
                   type="radio"
+                  // style={{ display: 'none' }}
                 />
                 {alternative}
               </Widget.Topic>
@@ -93,7 +94,7 @@ export default function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
   const [questionIndex, setQuestionIndex] = React.useState(0);
   const question = db.questions[questionIndex];
-  const totalQuestions = question.alternatives.length;
+  const totalQuestions = db.questions.length;
 
   React.useEffect(() => {
     setTimeout(() => {
