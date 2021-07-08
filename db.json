@@ -7,7 +7,7 @@
       "image": "https://pa1.narvii.com/5795/f5cd9fc90bb1a7fa7310f8908eb116729a2e64b8_hq.gif",
       "title": "Em um dos episódios da série, Castiel beija Maggie e ela pergunta o que tinha sido aquilo, então Castiel diz que aprendeu com alguém.",
       "description": "Com quem Castiel aprendeu?",
-      "answer": 1,
+      "answer": 3,
       "alternatives": [
         "Com o Dean.",
         "Com Bob",
@@ -16,32 +16,27 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
+      "image": "https://mixdeseries.com.br/wp-content/uploads/2015/09/supernatural-pilot-1.jpg",
+      "title": "Em que ano a série começou?",
       "description": "E agora? Você sabe?",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "1996",
+        "2005",
+        "2010",
+        "2008"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
+      "image": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/02/dean-1-700x394.jpg",
+      "title": "Em um episódio da 3ª temporada, Sam vê seu irmão Dean morrer nada menos que 103 vezes.",
+      "description": "Qual foi o titulo desse episódio?",
       "answer": 1,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
-      "answer": 1,
-      "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "O fim",
+        "Local Misterioso",
+        "Piloto",
+        "Sacrificio"
       ]
     }
   ],
