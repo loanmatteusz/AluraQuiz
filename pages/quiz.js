@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import React from 'react';
 
 import db from '../db.json';
 
@@ -8,7 +8,6 @@ import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
 import Button from '../src/components/Button';
 import GitHubCorner from '../src/components/GitHubCorner';
-import React from 'react';
 
 function LoadingWidget() {
   return (
