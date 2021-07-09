@@ -130,7 +130,7 @@ function QuestionWidget({
           >
             Confirmar
           </Button>
-          <p>selectedAlternative: {`${selectedAlternative}`}</p>
+          {/* <p>selectedAlternative: {`${selectedAlternative}`}</p> */}
           {isQuestionSubmited && isCorrent && <p>Você ACERTOU! UHUUUU!</p>}
           {isQuestionSubmited && !isCorrent && <p>Você errou :c</p>}
         </form>
