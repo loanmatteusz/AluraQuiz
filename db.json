@@ -55,5 +55,11 @@
       "githubCorner": "#900020"
     },
     "borderRadius": "4px"
-  }
+  },
+  "imgBySuccess": [
+    "https://media.tenor.com/images/c4750e78e9e1d5b37271206d5c802af3/tenor.gif",
+    "https://i.pinimg.com/originals/48/41/20/484120cc47288cee59ee050d458bd656.gif",
+    "https://data.whicdn.com/images/151707404/original.gif",
+    "http://pa1.narvii.com/5749/54fffaffc27de566bc0fc4066801ad5ddc109e97_00.gif"
+  ]
 }
